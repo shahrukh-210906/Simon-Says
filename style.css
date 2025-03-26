@@ -48,3 +48,14 @@ body{
 .user-flash{
     background-color: rgb(0, 255, 0);
 }
+
+@media(max-width : 768px){
+    .btn{
+        height: 100px;
+        width: 100px;
+    }
+    .box-container{
+        width: 300px;
+        height: 500px;
+    }
+}
