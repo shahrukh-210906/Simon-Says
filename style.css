@@ -27,6 +27,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .blue{
@@ -51,8 +52,9 @@ body{
 
 @media(max-width : 768px){
     .btn{
-        height: 100px;
-        width: 100px;
+        height: 125px;
+        width: 125px;
+        
     }
     .box-container{
         width: 300px;
