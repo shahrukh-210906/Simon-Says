@@ -13,14 +13,14 @@ let userSeq = [];
 let started = false;
 let level = 0;
 
-document.addEventListener("keypress", ()=>{
+document.addEventListener("click", ()=>{
     if (started === false){
         console.log("game is started");
         started = true;
 
         levelUp();
     }
-})
+});
 
 
 function btnFlash(btn){
@@ -70,7 +70,7 @@ function resetgame(){
     gameSeq= [];
     userSeq = [];
     level = 0;
-    inst.innerHTML = "Press any key to start the game"
+    inst.innerHTML = "click anywhere to start the game"
 }
 
 function btnPress (){
